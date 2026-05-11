@@ -37,9 +37,9 @@ The result is a rendering that reflects the structure and behaviour of specific 
 | Layer | Technology |
 |---|---|
 | Core simulation | Python |
-| GPU acceleration | (closed source) |
+| GPU acceleration | MLX |
 | GUI framework | napari |
-| RAW processing | rawpy |
+| RAW processing | CoreImage & rawpy |
 | Image I/O | OpenImageIO |
 | Numerical / spectral | NumPy, SciPy |
 
@@ -48,9 +48,3 @@ The result is a rendering that reflects the structure and behaviour of specific 
 ## Status
 
 Active development. Closed source.
-
----
-
-## Background
-
-The simulation model draws on the theory of colour photography as described in Giorgianni & Madden's *Digital Color Management* and Hunt's *The Reproduction of Color*, and applies spectral primary decomposition techniques for scene reconstruction.
